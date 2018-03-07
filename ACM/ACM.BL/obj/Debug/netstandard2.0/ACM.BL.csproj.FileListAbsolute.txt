@@ -1,0 +1,9 @@
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.deps.json
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.dll
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.pdb
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.csprojResolveAssemblyReference.cache
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.AssemblyInfoInputs.cache
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.AssemblyInfo.cs
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.dll
+C:\Users\genesiscruz\source\repos\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.pdb
