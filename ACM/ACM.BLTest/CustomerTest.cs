@@ -75,5 +75,74 @@ namespace ACM.BLTest
             //-- Assert - verifies that the expected value matches the actual value
             Assert.AreEqual(3, Customer.InstanceCount);
         }
+
+        [TestMethod]
+        public void ValidateValid()
+        {
+            //-- Arrange
+            var customer = new Customer();
+            customer.LastName = "Baggins";
+            customer.EmailAddress = "fbaggins@me.net";
+
+
+            var expected = true;
+            //-- Act - call validate method
+            var actual = customer.Validate();
+
+            //-- Assert - verifies that the expected value matches the actual value
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateMissingLastName()
+        {
+            //-- Arrange
+            var customer = new Customer();
+            customer.EmailAddress = "fbaggins@me.net";
+
+
+            var expected = false;
+
+            //-- Act - call validate method
+            var actual = customer.Validate();
+
+            //-- Assert - verifies that the expected value matches the actual value
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateMissingEmailAddress()
+        {
+            //-- Arrange
+            var customer = new Customer();
+            customer.LastName = "Baggins";
+            
+
+            var expected = false;
+            //-- Act - call validate method
+            var actual = customer.Validate();
+
+            //-- Assert - verifies that the expected value matches the actual value
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateMissingEmailAndEmailAddress()
+        {
+            //-- Arrange
+            var customer = new Customer();
+
+            var expected = false;
+            //-- Act - call validate method
+            var actual = customer.Validate();
+
+            //-- Assert - verifies that the expected value matches the actual value
+            Assert.AreEqual(expected, actual);
+        }
+
+
+
+
     }
 }
+
